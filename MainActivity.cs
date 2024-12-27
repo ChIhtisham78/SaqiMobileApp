@@ -28,7 +28,6 @@ namespace SaqiRoyalPatented
             _webView = FindViewById<WebView>(Resource.Id.webView);
             _customViewContainer = FindViewById<FrameLayout>(Resource.Id.customViewContainer);
 
-            // Configure WebView settings
             _webView.Settings.JavaScriptEnabled = true;
             _webView.Settings.DomStorageEnabled = true;
             _webView.Settings.AllowFileAccess = true;
@@ -41,6 +40,8 @@ namespace SaqiRoyalPatented
                 _webView.LoadUrl("https://www.saqiroyalpatented.com/");
             }
         }
+
+
 
         public override void OnBackPressed()
         {
@@ -72,6 +73,7 @@ namespace SaqiRoyalPatented
                 SystemUiFlags.HideNavigation |
                 SystemUiFlags.ImmersiveSticky);
         }
+
 
         protected override void OnSaveInstanceState(Bundle outState)
         {

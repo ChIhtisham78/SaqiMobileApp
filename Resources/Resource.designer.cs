@@ -22,6 +22,7 @@ namespace SaqiRoyalPatented
 		{
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
+
 		
 		public static void UpdateIdValues()
 		{
