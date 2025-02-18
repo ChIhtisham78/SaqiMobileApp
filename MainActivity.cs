@@ -41,8 +41,6 @@ namespace SaqiRoyalPatented
             }
         }
 
-
-
         public override void OnBackPressed()
         {
             if (_customView != null)
